@@ -1,0 +1,74 @@
+{
+    "Version": 1,
+    "TypeId": "NetworkProjectConfig",
+    "PeerMode": 0,
+    "LagCompensation": {
+        "Enabled": false,
+        "HitboxBufferLengthInMs": 200,
+        "HitboxDefaultCapacity": 512,
+        "CachedStaticCollidersSize": 64
+    },
+    "EnqueueIncompleteSynchronousSpawns": true,
+    "InvokeRenderInBatchMode": true,
+    "NetworkIdIsObjectName": false,
+    "HideNetworkObjectInactivityGuard": false,
+    "AllowClientServerModesInWebGL": true,
+    "ClientsRecordFrameAndPacketTimingTraces": false,
+    "Simulation": {
+        "InputDataWordCount": 0,
+        "ReplicationFeatures": 1,
+        "InputTransferMode": 0,
+        "SimulationUpdateTimeMode": 0,
+        "PlayerCount": 2,
+        "TickRateSelection": {
+            "Client": 64,
+            "ServerIndex": 0,
+            "ClientSendIndex": 1,
+            "ServerSendIndex": 1
+        }
+    },
+    "Network": {
+        "ConnectionTimeout": 10.0,
+        "ConnectionShutdownTime": 1.0,
+        "ReliableDataTransferModes": -1
+    },
+    "HostMigration": {
+        "EnableAutoUpdate": false,
+        "UpdateDelay": 10
+    },
+    "EncryptionConfig": {
+        "EnableEncryption": false
+    },
+    "NetworkConditions": {
+        "Enabled": true,
+        "DelayShape": 0,
+        "DelayMin": 0.05337347462773323,
+        "DelayMax": 0.2772146761417389,
+        "DelayPeriod": 1.1097040176391602,
+        "DelayThreshold": 0.0,
+        "AdditionalJitter": 0.04761909693479538,
+        "LossChanceShape": 0,
+        "LossChanceMin": 0.06240106001496315,
+        "LossChanceMax": 0.3158061504364014,
+        "LossChanceThreshold": 0.0,
+        "LossChancePeriod": 0.940155267715454,
+        "AdditionalLoss": 0.05395420268177986
+    },
+    "Heap": {
+        "PageShift": 15,
+        "PageCount": 256,
+        "GlobalsSize": 0
+    },
+    "AssembliesToWeave": [
+        "Fusion.Unity",
+        "Assembly-CSharp",
+        "Assembly-CSharp-firstpass",
+        "Fusion.Addons.Physics",
+        "Fusion.Addons.FSM",
+        "Meta.XR.MultiplayerBlocks.Fusion"
+    ],
+    "UseSerializableDictionary": true,
+    "NullChecksForNetworkedProperties": true,
+    "CheckRpcAttributeUsage": false,
+    "CheckNetworkedPropertiesBeingEmpty": true
+}
